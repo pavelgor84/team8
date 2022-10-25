@@ -4,7 +4,7 @@ import StylePlate from "./Plate.module.css"
 import db from "./esgData.json"
 
 export default function Content({ esg }) {
-    //{db[esg][0].index}
+
 
     return (
 
@@ -39,6 +39,5 @@ export default function Content({ esg }) {
             </div>
 
         </div>
-
     )
 }
