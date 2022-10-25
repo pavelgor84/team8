@@ -1,0 +1,41 @@
+.leftArea {
+    padding: 20px 0;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+
+.menuItem {
+    background-color: #F3F3F3;
+    padding: 15% 20px 0 0;
+}
+
+.selected {
+    padding: 15% 20px 0 0;
+    background-color: #E3F0F7;
+    box-shadow: 0px 5px 5px 0px rgba(34, 60, 80, 0.2);
+}
+
+.title {
+    margin-left: 30%;
+    padding-left: 0 0 0 0;
+}
+
+.capital {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 116px;
+
+}
+
+.desc {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.155em;
+
+    color: #7A7A7A;
+}

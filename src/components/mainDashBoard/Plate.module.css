@@ -1,0 +1,68 @@
+.mainPlate {
+    width: 245px;
+    height: 218.93px;
+    padding: 5px;
+    color: #FFFDFD;
+    background-color: #7F8BF2;
+    display: block;
+
+}
+
+
+.weight {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.387234px;
+
+    color: #ECE5DC;
+}
+
+.index {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.946809px;
+
+    color: #FFFDFD;
+}
+
+.yearBlock {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -0.387234px;
+
+    color: #EEE0E0;
+    display: flex;
+}
+
+.yearLast {}
+
+.yearCurrent {}
+
+.valueBlock {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.553191px;
+
+    color: #EEE0E0;
+    display: flex;
+}
+
+.valueLast {}
+
+.valueCurrent {}
+
+.result {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -0.553191px;
+
+    color: #ECECEC;
+    padding: 0;
+    background-color: #6773DE;
+}

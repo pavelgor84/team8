@@ -1,0 +1,108 @@
+{
+    "e": [
+        {
+            "weight": "17",
+            "index": "Энергопотребление и климат",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "61",
+            "currentNum": "56",
+            "circlePrev": "green",
+            "circleCur": "green"
+        },
+        {
+            "weight": "3",
+            "index": "Использование и утилизация продукции",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "15",
+            "currentNum": "22",
+            "circlePrev": "red",
+            "circleCur": "red"
+        },
+        {
+            "weight": "2",
+            "index": "Экологический менеджмент",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "62",
+            "currentNum": "72",
+            "circlePrev": "green",
+            "circleCur": "green"
+        },
+        {
+            "weight": "2",
+            "index": "Предотвращение загрязнения почв",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "57",
+            "currentNum": "57",
+            "circlePrev": "green",
+            "circleCur": "green"
+        },
+        {
+            "weight": "2",
+            "index": "Биоразнообразие",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "39",
+            "currentNum": "67",
+            "circlePrev": "yellow",
+            "circleCur": "green"
+        },
+        {
+            "weight": "2",
+            "index": "Водопотребление",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "43",
+            "currentNum": "58",
+            "circlePrev": "yellow",
+            "circleCur": "green"
+        }
+    ],
+    "s": [
+        {
+            "weight": "3",
+            "index": "Охрана труда",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "49",
+            "currentNum": "69",
+            "circlePrev": "yellow",
+            "circleCur": "green"
+        },
+        {
+            "weight": "2",
+            "index": "Права человека",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "22",
+            "currentNum": "40",
+            "circlePrev": "red",
+            "circleCur": "yellow"
+        }
+    ],
+    "g": [
+        {
+            "weight": "3",
+            "index": "Совет диреторов",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "45",
+            "currentNum": "65",
+            "circlePrev": "yellow",
+            "circleCur": "green"
+        },
+        {
+            "weight": "2",
+            "index": "Экологические стандарты в цепочке поставок",
+            "yearLast": "2021",
+            "yearCurrent": "2022",
+            "previousNum": "29",
+            "currentNum": "42",
+            "circlePrev": "yellow",
+            "circleCur": "yellow"
+        }
+    ]
+}
