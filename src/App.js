@@ -1,10 +1,10 @@
-import MainDashBoard from "./components/mainDashBoard/MainDashBoard";
-
+//import MainDashBoard from "./components/mainDashBoard/MainDashBoard";
+import MainPage from "./components/mainPage/MainPage";
 
 function App() {
   return (
     <div>
-      <MainDashBoard />
+      <MainPage />
     </div>
   );
 }
