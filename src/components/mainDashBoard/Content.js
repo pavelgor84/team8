@@ -11,7 +11,7 @@ export default function Content({ esg }) {
     return (
 
         <div className={StyleContent.content}>
-            {esg && data}
+            {data}
         </div>
     )
 }

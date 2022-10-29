@@ -4,7 +4,7 @@ import Content from "./Content";
 import Styles from "./MainDashBoard.module.css"
 
 export default function MainDashBoard() {
-    const [selected, setSelected] = useState("")
+    const [selected, setSelected] = useState("e")
 
     return (
         <div className={Styles.container}>
