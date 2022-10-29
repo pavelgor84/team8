@@ -33,7 +33,7 @@ export default function MainPage() {
                         </div>
                         <div className={Styles.boss}>
                             <img className={Styles.linkLogo} src={logo} alt="Директор департамента" />
-                            <Link to="/maindashboard"> Директор департамента</Link>
+                            <Link to="/team8/maindashboard"> Директор департамента</Link>
                         </div>
                     </div>
 

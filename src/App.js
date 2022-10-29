@@ -6,8 +6,10 @@ import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <>
+      <Link to="/team8/maindashboard"></Link>
+
       <Routes>
-        <Route path="/maindashboard" element={<MainDashBoard />} />
+        <Route path="/team8/maindashboard" element={<MainDashBoard />} />
         <Route path="/" element={<MainPage />} />
 
       </Routes>
