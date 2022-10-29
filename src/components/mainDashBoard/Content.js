@@ -14,7 +14,7 @@ export default function Content({ esg }) {
 
         <div className={StyleContent.container}>
             <div className={StyleContent.exit}>
-                Иванов И.И.<Link to="/"><img src={exit} alt="Выход" /></Link>
+                Иванов И.И.<Link to="/team8/"><img src={exit} alt="Выход" /></Link>
             </div>
             <div className={StyleContent.content}>
 
