@@ -1,8 +1,9 @@
 .leftArea {
+
     padding: 20px 0;
     background-color: #fff;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
     row-gap: 10px;
 }
 
