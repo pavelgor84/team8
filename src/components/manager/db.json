@@ -1,0 +1,71 @@
+{
+    "data": [
+        {
+            "name": "Петров Пётр Петрович",
+            "occupation": "Экономический менеджмент",
+            "edited": false,
+            "needRevise": false,
+            "params": [
+                {
+                    "name": "Проектов по очистке почвы",
+                    "value": 2,
+                    "approved": true
+                }
+            ]
+        },
+        {
+            "name": "Семёнов Семён Семёнович",
+            "occupation": "Случаи травматизма",
+            "edited": false,
+            "needRevise": true,
+            "params": [
+                {
+                    "name": "Падение работника с высоты",
+                    "value": 2,
+                    "approved": false
+                },
+                {
+                    "name": "Обрушение горной массы",
+                    "value": 3,
+                    "approved": true
+                },
+                {
+                    "name": "Поражение эл. током",
+                    "value": 3,
+                    "approved": true
+                },
+                {
+                    "name": "Поражение кислотой",
+                    "value": 1,
+                    "approved": false
+                }
+            ]
+        },
+        {
+            "name": "Иванов Иван Иванович",
+            "occupation": "Права человека",
+            "edited": false,
+            "needRevise": false,
+            "params": [
+                {
+                    "name": "Выиграно дел против руководства",
+                    "value": 2,
+                    "approved": true
+                }
+            ]
+        },
+        {
+            "name": "Антонов Антон Антонович",
+            "occupation": "Диалог по социальным вопросам",
+            "edited": false,
+            "needRevise": false,
+            "params": [
+                {
+                    "name": "Выдано льготных ипотек",
+                    "value": 12,
+                    "approved": true
+                }
+            ]
+        }
+    ]
+}
