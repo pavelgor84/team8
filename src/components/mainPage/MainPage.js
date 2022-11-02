@@ -29,7 +29,7 @@ export default function MainPage() {
                         </div>
                         <div className={Styles.linkManager}>
                             <img className={Styles.linkLogo} src={logo} alt="Руководитель функц. направления" />
-                            <a href="#"> Руководитель функц. направления</a>
+                            <a href="/team8/manager"> Руководитель функц. направления</a>
                         </div>
                         <div className={Styles.boss}>
                             <img className={Styles.linkLogo} src={logo} alt="Директор департамента" />
