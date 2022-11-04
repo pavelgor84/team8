@@ -9,9 +9,23 @@ import { Link } from "react-router-dom"
 
 export default function UserContent({ data }) {
     //console.log(data)
+    let userData
+    if (data) {
+
+        userData = data.params.map((item) =>
+            <tr>
+                <td className={Styles.tabIndex}>{item.name}</td>
+                <td className={Styles.tabValue}><input type="text" defaultValue={item.value} disabled="disabled" /></td>
+                <td className={Styles.tabApprove}>{item.approved === true ? <img src={sel} alt="Утверждено" /> : <img src={desel} alt="Утвердить" />}</td>
+            </tr>
+        )
+    }
 
     return (
         <div className={Styles.root}>
+            {!data && (<div className={Styles.exit}>
+                Иванов И.И.<Link to="/team8/"><img src={exit} alt="Выход" /></Link>
+            </div>)}
             {data && (
 
                 <div className={Styles.container}>
@@ -35,16 +49,15 @@ export default function UserContent({ data }) {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td className={Styles.tabIndex}>Падение работника с высоты</td>
-                                    <td className={Styles.tabValue}><input type="text" defaultValue={3} disabled="disabled" /></td>
-                                    <td className={Styles.tabApprove}><img src={sel} alt="Утверждено" /></td>
-                                </tr>
+
+                                {userData}
                             </tbody>
                         </table>
 
                     </div>
-                    <div className={Styles.save}></div>
+                    <div className={Styles.save}>
+                        <button>Сохранить</button>
+                    </div>
                 </div>
 
 

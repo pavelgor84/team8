@@ -1,11 +1,14 @@
 .container {
     height: 100vh;
     background: linear-gradient(90deg, #E3F0F7 1.27%, rgba(227, 117, 237, 0.54) 100%);
+
 }
 
 .root {
     height: 100vh;
     background: linear-gradient(90deg, #E3F0F7 1.27%, rgba(227, 117, 237, 0.54) 100%);
+    display: block;
+
 }
 
 .exit {
@@ -13,14 +16,31 @@
     color: #8C8E9D
 }
 
-.title {}
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
 
-.chart {}
+.chart {
+    display: flex;
+    justify-content: center;
+}
 
-.table {}
+.table {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
 
 .table td {
-    background-color: #9496aa;
+
     border-spacing: 0;
 }
 
@@ -30,9 +50,11 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
+    border-bottom: 5px solid #ECC8F6;
 }
 
 .tab {
+
     border-collapse: collapse;
     border-spacing: 0;
     width: 90%;
@@ -66,18 +88,37 @@
     line-height: 130%;
 }
 
-.tabIndex {}
+.tabIndex {
+    background-color: #9496aa;
+}
 
 .tabValue {
     color: #444343;
     text-align: center;
     width: 60px;
-
+    background-color: #9496aa;
 }
 
 .tabApprove {
     text-align: right;
     padding-right: 10px;
+    background-color: #9496aa;
 }
 
-.save {}
+.save {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.save button {
+
+    background-color: #BCBFD2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
