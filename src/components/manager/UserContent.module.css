@@ -2,3 +2,82 @@
     height: 100vh;
     background: linear-gradient(90deg, #E3F0F7 1.27%, rgba(227, 117, 237, 0.54) 100%);
 }
+
+.root {
+    height: 100vh;
+    background: linear-gradient(90deg, #E3F0F7 1.27%, rgba(227, 117, 237, 0.54) 100%);
+}
+
+.exit {
+    margin-left: 80%;
+    color: #8C8E9D
+}
+
+.title {}
+
+.chart {}
+
+.table {}
+
+.table td {
+    background-color: #9496aa;
+    border-spacing: 0;
+}
+
+.tab td {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.tab {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+}
+
+.tab input {
+    width: 50px;
+    height: 30px;
+    border-radius: 1px;
+    background-color: #BCBFD2;
+    margin: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+
+.tabHeadIndex {}
+
+.tabHeadValue {}
+
+.tabHeadApprove {
+    width: 12%;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.tabIndex {}
+
+.tabValue {
+    color: #444343;
+    text-align: center;
+    width: 60px;
+
+}
+
+.tabApprove {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.save {}

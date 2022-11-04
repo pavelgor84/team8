@@ -10,15 +10,16 @@ export default function Manager() {
     const userList = db.data.map((item, index) =>
         <User user={item.name} occupation={item.occupation} selected={selected} setSelected={setSelected} needRevise={item.needRevise} key={index} />
     )
+    const userDataInput = db.data.find(item => item.name === selected)
+    console.log(userDataInput)
 
     return (
         <div className={Styles.container}>
             <div className={Styles.sidebar}>
-                {/* <User user={db.data[0]} selected={selected} setSelected={setSelected} /> */}
                 {userList}
             </div>
             <div className={Styles.userData}>
-                <UserContent />
+                <UserContent data={userDataInput} />
             </div>
         </div>
     )
