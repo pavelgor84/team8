@@ -13,7 +13,7 @@ export default function Owner() {
     let userData = db.data[1].params.map((item, index) =>
         <tr key={index}>
             <td className={Styles.tabIndex}>{item.name}</td>
-            <td className={Styles.tabValue}><input type="text" defaultValue={item.value} onChange={() => console.log("changed")} /></td>
+            <td className={Styles.tabValue}><input type="text" defaultValue={item.value} onChange={(e) => e.target.offsetParent.nextSibling.firstElementChild.src = incon_edited} /></td>
             <td className={Styles.tabApprove}> <img src={item.approved === true ? incon_approved : incon_unapproved} alt="Статус" /> </td>
         </tr>
     )
