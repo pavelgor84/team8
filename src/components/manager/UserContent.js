@@ -10,7 +10,6 @@ import { Link } from "react-router-dom"
 export default function UserContent({ data, position, update }) {
     //db.data[index].params[key].approved
 
-
     let userData
     if (data) {
 

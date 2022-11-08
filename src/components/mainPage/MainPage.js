@@ -25,7 +25,7 @@ export default function MainPage() {
                     <div className={Styles.linksArea}>
                         <div className={Styles.linkProvider}>
                             <img className={Styles.linkLogo} src={logo} alt="" />
-                            <a href="#"> Владелец показателей</a>
+                            <a href="/team8/owner"> Владелец показателей</a>
                         </div>
                         <div className={Styles.linkManager}>
                             <img className={Styles.linkLogo} src={logo} alt="Руководитель функц. направления" />
