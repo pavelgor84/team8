@@ -7,16 +7,18 @@ import desel from "./icons/check_box/deselected.svg"
 import { Link } from "react-router-dom"
 
 
-export default function UserContent({ data }) {
-    //console.log(data)
+export default function UserContent({ data, position, update }) {
+    //db.data[index].params[key].approved
+
+
     let userData
     if (data) {
 
-        userData = data.params.map((item) =>
-            <tr>
+        userData = data.params.map((item, index) =>
+            <tr key={index}>
                 <td className={Styles.tabIndex}>{item.name}</td>
                 <td className={Styles.tabValue}><input type="text" defaultValue={item.value} disabled="disabled" /></td>
-                <td className={Styles.tabApprove}>{item.approved === true ? <img src={sel} alt="Утверждено" /> : <img src={desel} alt="Утвердить" />}</td>
+                <td className={Styles.tabApprove}> <img src={item.approved === true ? sel : desel} alt="Утверждено" onClick={() => update(position, index, item.approved)} /> </td>
             </tr>
         )
     }
