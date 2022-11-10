@@ -24,12 +24,12 @@ export default function MainPage() {
                     </div>
                     <div className={Styles.linksArea}>
                         <div className={Styles.linkProvider}>
-                            <img className={Styles.linkLogo} src={logo} alt="" />
-                            <a href="/team8/owner"> Владелец показателей</a>
+                            <img className={Styles.linkLogo} src={logo} alt="Владелец показателей" />
+                            <Link to="/team8/owner"> Владелец показателей</Link>
                         </div>
                         <div className={Styles.linkManager}>
                             <img className={Styles.linkLogo} src={logo} alt="Руководитель функц. направления" />
-                            <a href="/team8/manager"> Руководитель функц. направления</a>
+                            <Link to="/team8/manager"> Руководитель функц. направления</Link>
                         </div>
                         <div className={Styles.boss}>
                             <img className={Styles.linkLogo} src={logo} alt="Директор департамента" />
